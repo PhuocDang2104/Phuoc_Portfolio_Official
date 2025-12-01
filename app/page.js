@@ -365,6 +365,15 @@ them into IoT/edge environments. I’ve applied these skills in hackathons to de
                   >
                     Download video
                   </a>
+                  <a
+                    href="https://www.youtube.com/watch?v=phY4nTSwkV8"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-ghost"
+                    style={{ marginLeft: '8px', padding: '6px 10px' }}
+                  >
+                    Watch on YouTube
+                  </a>
                 </div>
 
                 <p className="muted small">
@@ -409,17 +418,26 @@ them into IoT/edge environments. I’ve applied these skills in hackathons to de
                     }}
                     />
                   </div>
-                  <div className="muted small" style={{ marginTop: '6px' }}>
-                    If the video does not play, please download and view locally.
-                    <a
-                      href="/1201.mp4"
-                      download
+                <div className="muted small" style={{ marginTop: '6px' }}>
+                  If the video does not play, please download and view locally.
+                  <a
+                    href="/1201.mp4"
+                    download
                       className="btn btn-ghost"
                       style={{ marginLeft: '8px', padding: '6px 10px' }}
-                    >
-                      Download video
-                    </a>
-                  </div>
+                  >
+                    Download video
+                  </a>
+                  <a
+                    href="https://www.youtube.com/watch?v=BmutVJ1-neU"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-ghost"
+                    style={{ marginLeft: '8px', padding: '6px 10px' }}
+                  >
+                    Watch on YouTube
+                  </a>
+                </div>
                   <p className="muted small" style={{ marginTop: '-4px' }}>
                   Object detection demo — real traffic objects (vehicles, signs, lights) with onboard inference. ( click on video for fullscreen )
                 </p>
