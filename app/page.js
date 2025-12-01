@@ -355,6 +355,18 @@ them into IoT/edge environments. I’ve applied these skills in hackathons to de
                   />
                 </div>
 
+                <div className="muted small" style={{ marginTop: '6px' }}>
+                  If the video does not play, please download and view locally.
+                  <a
+                    href="/MedMind_YUVAi_Proposal_Demo.mp4"
+                    download
+                    className="btn btn-ghost"
+                    style={{ marginLeft: '8px', padding: '6px 10px' }}
+                  >
+                    Download video
+                  </a>
+                </div>
+
                 <p className="muted small">
                   MedMind demo — continuous loop (click video for controls if needed).
                 </p>
@@ -395,9 +407,20 @@ them into IoT/edge environments. I’ve applied these skills in hackathons to de
                       display: 'block',
                       margin: '0 auto'
                     }}
-                  />
-                </div>
-                <p className="muted small" style={{ marginTop: '-4px' }}>
+                    />
+                  </div>
+                  <div className="muted small" style={{ marginTop: '6px' }}>
+                    If the video does not play, please download and view locally.
+                    <a
+                      href="/1201.mp4"
+                      download
+                      className="btn btn-ghost"
+                      style={{ marginLeft: '8px', padding: '6px 10px' }}
+                    >
+                      Download video
+                    </a>
+                  </div>
+                  <p className="muted small" style={{ marginTop: '-4px' }}>
                   Object detection demo — real traffic objects (vehicles, signs, lights) with onboard inference. ( click on video for fullscreen )
                 </p>
 
