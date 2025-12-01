@@ -146,6 +146,11 @@ export default function AppNav() {
                         </Link>
                       </li>
                       <li>
+                        <Link href="/yuvai_global_challenge" onClick={closeMobile}>
+                          MedMind – YUVAi Challenge
+                        </Link>
+                      </li>
+                      <li>
                         <Link href="/rmit_hackathon_project" onClick={closeMobile}>
                           RMIT Hackathon
                         </Link>
@@ -160,7 +165,7 @@ export default function AppNav() {
                       <li>
                         {/* chỉnh lại href này theo route trang research của bạn */}
                         <Link href="/automotive_control" onClick={closeMobile}>
-                          Automotive Control (PID / LQR / MPC)
+                          Automotive Control & Intelligent Driving Research
                         </Link>
                       </li>
                     </ul>
@@ -190,7 +195,7 @@ export default function AppNav() {
 
             <a
               className="cta-download"
-              href="/Dang Nhu Phuoc _ CV _ Embedded Engineer.pdf"
+              href="/Dang-Nhu-Phuoc_AI_CV.pdf"
               download
               onClick={closeMobile}
             >

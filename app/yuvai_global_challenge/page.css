@@ -1,0 +1,51 @@
+@import "../iot_challenge_product/page.css";
+
+.proposal-video {
+  width: 100%;
+  margin: 16px 0 8px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  background: #000;
+}
+
+.proposal-video video {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.arch-steps {
+  display: grid;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.arch-steps .arch-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  align-items: stretch;
+}
+
+.arch-steps .arch-card {
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.arch-steps .arch-card h4 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.arch-steps .arch-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.stack-carousel-wrap.yuvai {
+  margin-top: 12px;
+}
